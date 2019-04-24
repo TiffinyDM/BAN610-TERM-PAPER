@@ -51,7 +51,7 @@ CONSTRAINT OrderLine_PK primary key (OrderID, ProductID),
 CONSTRAINT OrderLine_FK1 foreign key (OrderID) references ORDER_T(OrderID),
 CONSTRAINT OrderLine_FK2 foreign key (ProductID) references PRODUCT_T(ProductID)
 );
-
+dm
 
 -- DIFFERENCE BETWEEN DROP AND DELET, DROP IS TO DROP ALL TABLE DELET IS JUST DELET A VALUE FROM TABLE
 
